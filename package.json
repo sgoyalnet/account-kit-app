@@ -1,0 +1,22 @@
+{
+  "name": "account-kit-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.2",
+    "express": "~4.13.4",
+    "guid": "0.0.12",
+    "morgan": "~1.7.0",
+    "ng-account-kit": "^1.0.0",
+    "node-account-kit": "^1.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.74.0",
+    "serve-favicon": "~2.3.0"
+  }
+}

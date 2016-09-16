@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="net.sgoyal.example" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="net.sgoyal.example" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="net.sgoyal.example" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="net.sgoyal.example" class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<base href="/">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ng-account-kit authentication demo</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+
+
+	<script>
+		var state = "<%=state %>";
+	</script>
+</head>
+
+<body>
+	<!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation"><a href="https://github.com/sgoyalnet/account-kit-app" target="_blank">Get the code&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">ng-account-kit authentication</h3>
+		</div>
+		<div class="container" ui-view></div>
+		<!-- /container -->
+		<footer class="footer">
+			<p>Design taken from <a href="http://getbootstrap.com/getting-started/#examples" target="_blank">Examples from Boorstrap</a></p>
+		</footer>
+
+	</div>
+	<!-- /container -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js"></script>
+	<script src="//npmcdn.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="javascripts/angular-cookies.min.js"></script>
+	<script src="ng-account-kit/dist/ng-account-kit.min.js"></script>
+	<script src="javascripts/app.js"></script>
+</body>
+
+</html>
