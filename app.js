@@ -11,7 +11,7 @@ var del = require('./routes/del');
 
 var app = express();
 
-accountkit.set ("v1.0", "1769155430001571", "d3bd0c7d171da1ae2cb52346969310f5");
+accountkit.set ("v1.1", "1769155430001571", "d3bd0c7d171da1ae2cb52346969310f5");
 //accountkit.requireAppSecret (true);
 
 // view engine setup

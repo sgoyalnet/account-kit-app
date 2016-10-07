@@ -1,7 +1,7 @@
 (function() {
 	angular.module("net.sgoyal.example", ['ngAccountKit', 'ngCookies', 'ui.router'])
 		.config(function(accountKitProvider, $stateProvider, $urlRouterProvider, $locationProvider) {
-			accountKitProvider.configure("1769155430001571", "v1.0", state, '/');
+			accountKitProvider.configure("1769155430001571", "v1.1", state, '/');
 
 			$stateProvider
 				.state('index', {
